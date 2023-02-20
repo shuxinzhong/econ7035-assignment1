@@ -1,7 +1,6 @@
 import pandas as pd
 import argparse
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument('contact_info_file', help='Contact info file(CSV)')
 parser.add_argument('other_info_file', help='Other info file(CSV)')
